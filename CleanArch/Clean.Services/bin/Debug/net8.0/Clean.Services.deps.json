@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Clean.Services/1.0.0": {
+        "dependencies": {
+          "Clean.Contracts": "1.0.0",
+          "Clean.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Clean.Services.dll": {}
+        }
+      },
+      "Clean.Contracts/1.0.0": {
+        "runtime": {
+          "Clean.Contracts.dll": {}
+        }
+      },
+      "Clean.Entities/1.0.0": {
+        "runtime": {
+          "Clean.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clean.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
