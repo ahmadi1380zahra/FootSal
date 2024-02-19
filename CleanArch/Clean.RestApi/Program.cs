@@ -1,9 +1,12 @@
 using Clean.Contracts;
 using Clean.Persistance.EF;
 using Clean.Persistance.EF.Players;
+using Clean.Persistance.EF.TeamEnrollment;
 using Clean.Persistance.EF.Teams;
 using Clean.Services.Players;
 using Clean.Services.Players.Contracts;
+using Clean.Services.TeamEnrollment;
+using Clean.Services.TeamEnrollment.Contracts;
 using Clean.Services.Teams;
 using Clean.Services.Teams.Contracts;
 
@@ -21,6 +24,9 @@ builder.Services.AddScoped<TeamService, TeamAppService>();
 builder.Services.AddScoped<TeamRepository, EFTeamRepository>();
 builder.Services.AddScoped<PlayerService, PlayerAppService>();
 builder.Services.AddScoped<PlayerRepository, EFPlayerRepository>();
+
+builder.Services.AddScoped<TeamEnrollmentService, TeamEnrollmentAppService>();
+builder.Services.AddScoped<TeamEnrollmentRepository, EFTeamEnrollmentRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -26,19 +26,19 @@ namespace Clean.Services.Players
             {
                 throw new Exception("name should be unique");
             }
-            if (!_playerRepository.IsExistTeam(dto.TeamId))
-            {
-                throw new Exception("team not existed");
-            }
-            if (_playerRepository.PlayersCountInTeam(dto.TeamId)==5)
-            {
-                throw new Exception("team is full");
-            }
+            //if (!_playerRepository.IsExistTeam(dto.TeamId))
+            //{
+            //    throw new Exception("team not existed");
+            //}
+            //if (_playerRepository.PlayersCountInTeam(dto.TeamId)==5)
+            //{
+            //    throw new Exception("team is full");
+            //}
             var player = new Player()
             {
                 FullName = dto.FullName,
                 BirthDate = dto.BirthDate,
-                TeamId = dto.TeamId,
+                 
             };
             _playerRepository.Add(player);
             await _unitOfWork.Complete();
@@ -68,17 +68,17 @@ namespace Clean.Services.Players
                 throw new Exception("player is not existed");
             }
             var player = _playerRepository.Find(id);
-            if (!_playerRepository.IsExistTeam(dto.TeamId))
-            {
-                throw new Exception("team not existed");
-            }
+            //if (!_playerRepository.IsExistTeam(dto.TeamId))
+            //{
+            //    throw new Exception("team not existed");
+            //}
             if (_playerRepository.IsExistExceptItSelf(id, dto.FullName))
             {
                 throw new Exception("name should be unique");
             }
             player.BirthDate = dto.BirthDate;
             player.FullName = dto.FullName;
-            player.TeamId = dto.TeamId;
+            //player.TeamId = dto.TeamId;
             await _unitOfWork.Complete();
         }
     }

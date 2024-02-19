@@ -16,7 +16,7 @@ namespace Clean.Migrations
                 .WithColumn("Id").AsInt32().Identity().PrimaryKey()
                 .WithColumn("FullName").AsString(50).NotNullable()
                 .WithColumn("BirthDate").AsDate().NotNullable()
-                .WithColumn("TeamId").AsInt32().NotNullable()
+                .WithColumn("TeamId").AsInt32().Nullable()
                    .ForeignKey("FK_Players_Teams", "Teams", "Id") ;
         }
         public override void Down()

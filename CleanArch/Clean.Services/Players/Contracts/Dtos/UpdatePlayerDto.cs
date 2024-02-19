@@ -10,6 +10,6 @@ namespace Clean.Services.Players.Contracts.Dtos
     {
         public string FullName { get; set; }
         public DateTime BirthDate { get; set; }
-        public int TeamId { get; set; }
+        //public int TeamId { get; set; }
     }
 }

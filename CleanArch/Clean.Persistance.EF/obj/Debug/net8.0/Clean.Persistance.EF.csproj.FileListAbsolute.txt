@@ -30,3 +30,4 @@ C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Persistance.EF\obj\Debug\net
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Persistance.EF\obj\Debug\net8.0\Clean.Persistance.EF.pdb
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Persistance.EF\obj\Debug\net8.0\Clean.Persistance.EF.genruntimeconfig.cache
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Persistance.EF\obj\Debug\net8.0\ref\Clean.Persistance.EF.dll
+C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Persistance.EF\obj\Debug\net8.0\Clean.Persistance.EF.sourcelink.json

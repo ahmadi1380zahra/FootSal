@@ -20,3 +20,4 @@ C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Entities\obj\Debug\net8.0\Cl
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Entities\obj\Debug\net8.0\refint\Clean.Entities.dll
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Entities\obj\Debug\net8.0\Clean.Entities.pdb
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Entities\obj\Debug\net8.0\ref\Clean.Entities.dll
+C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Entities\obj\Debug\net8.0\Clean.Entities.sourcelink.json

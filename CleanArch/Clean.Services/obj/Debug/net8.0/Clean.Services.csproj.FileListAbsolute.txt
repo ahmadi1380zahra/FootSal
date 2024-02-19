@@ -26,3 +26,4 @@ C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Services\obj\Debug\net8.0\Cl
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Services\obj\Debug\net8.0\refint\Clean.Services.dll
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Services\obj\Debug\net8.0\Clean.Services.pdb
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Services\obj\Debug\net8.0\ref\Clean.Services.dll
+C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Services\obj\Debug\net8.0\Clean.Services.sourcelink.json

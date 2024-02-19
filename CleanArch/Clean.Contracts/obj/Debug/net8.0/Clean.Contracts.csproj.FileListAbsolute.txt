@@ -20,3 +20,4 @@ C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Contracts\obj\Debug\net8.0\C
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Contracts\obj\Debug\net8.0\refint\Clean.Contracts.dll
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Contracts\obj\Debug\net8.0\Clean.Contracts.pdb
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Contracts\obj\Debug\net8.0\ref\Clean.Contracts.dll
+C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.Contracts\obj\Debug\net8.0\Clean.Contracts.sourcelink.json

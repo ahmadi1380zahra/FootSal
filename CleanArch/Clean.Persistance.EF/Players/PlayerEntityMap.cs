@@ -17,10 +17,11 @@ namespace Clean.Persistance.EF.Players
             builder.Property(_ => _.Id).ValueGeneratedOnAdd();
             builder.Property(_ => _.FullName).HasMaxLength(50).IsRequired();
             builder.Property(_ => _.BirthDate).IsRequired();
+            builder.Property(_ => _.PlayerPost);
             builder.HasOne(_ => _.Team)
               .WithMany(_ => _.Players)
-              .HasForeignKey(_ => _.TeamId)
-              .IsRequired();
+              .HasForeignKey(_ => _.TeamId);
+              
         }
     }
 }

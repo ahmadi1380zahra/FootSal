@@ -76,3 +76,4 @@ C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.RestApi\obj\Debug\net8.0\ref
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.RestApi\obj\Debug\net8.0\Clean.RestApi.pdb
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.RestApi\obj\Debug\net8.0\Clean.RestApi.genruntimeconfig.cache
 C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.RestApi\obj\Debug\net8.0\ref\Clean.RestApi.dll
+C:\Users\zizig\source\repos\Footsal\CleanArch\Clean.RestApi\obj\Debug\net8.0\Clean.RestApi.sourcelink.json

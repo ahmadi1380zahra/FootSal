@@ -14,7 +14,7 @@ namespace Clean.Services.Players.Contracts.Dtos
         public string FullName { get; set; }
         [Required]
         public DateTime BirthDate { get; set; }
-        [Required]
-        public int TeamId { get; set; }
+        //[Required]
+        //public int TeamId { get; set; }
     }
 }
